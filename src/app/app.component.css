@@ -11,14 +11,21 @@ html, body{
 }
 
 .body{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   height: 90%;
 }
 
 .sidebar{
+  flex: 1;
   background-color: azure;
+  margin-left: 3%;
 }
 
 .container{
+  flex: 3;
   background-color: burlywood;
+  margin-right: 3%;
 }
 

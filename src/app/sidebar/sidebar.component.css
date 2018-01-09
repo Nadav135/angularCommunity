@@ -1,0 +1,26 @@
+.sidebarWrapper{
+  display: flex;
+  flex-direction: column;
+  padding-left: 5%;
+}
+
+.profileWrapper{
+  display: flex;
+  flex-direction: row;
+  margin-top: 5%;
+  align-items: center;
+}
+
+.profileImg{
+  display: flex;
+  max-width: 20%;
+}
+
+.avatar{
+  width: 90%;
+  height: 90%;
+}
+
+.profileName{
+  text-align: center;
+}

@@ -1,0 +1,25 @@
+.signupWrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 5%;
+}
+
+.inputWrapper{
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 3%;
+}
+
+.input{
+  width: 40%;
+  border-radius: 8%;
+  line-height: 160%;
+}
+
+.button{
+  width: 10%;
+  line-height: 168%;
+  border-radius: 10%;
+  background-color: cornflowerblue;
+}

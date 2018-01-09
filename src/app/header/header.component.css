@@ -9,32 +9,28 @@
 
 .logo{
   flex: 1;
-  background-color: white;
 }
 
 .logoImg{
-  height:10%;
-  width: 10%;
+  height: 40px;
+  padding-top: 1%;
 }
 
 .search{
   flex: 2;
   width: 30%;
   height: 100%;
-  background-color: purple;
 }
 
 .searchInput{
   border-radius: 5px;
-  margin-top: 1%;
-  height: 85%;
   width: 80%;
+  line-height: 184%;
 }
 
 .personal{
   width: 100%;
   flex:1;
-  background-color: burlywood;
 }
 
 .log{
@@ -59,17 +55,17 @@
 
 .notifications{
   margin-right: 5%;
-  background-color: blueviolet;
 }
 
 .msg{
-  background-color: blue;
   flex-shrink: 2;
+  display: flex;
+  max-width: 6%;
 }
 
 .msgImg{
-  height:5%;
-  width: 5%;
+  width: 65%;
+  height: 5%;
 }
 
 

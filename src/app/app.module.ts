@@ -7,13 +7,17 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { ContainerComponent } from './container/container.component';
+import { SignupComponent } from './container/signup/signup.component';
+import { DataComponent } from './data/data.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     SidebarComponent,
-    ContainerComponent
+    ContainerComponent,
+    SignupComponent,
+    DataComponent
   ],
   imports: [
     BrowserModule,
